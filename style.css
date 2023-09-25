@@ -1,0 +1,307 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue ;
+}
+#page>img{
+    position: absolute;
+    right: 5%;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 35%;
+    height: 55%;
+    border-radius: 10px;
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+    background-color: beige;
+}
+#page>#nav>img {
+    height: 220%;
+    width: 13%;
+    left: 0%;
+    
+}
+#center-nav{
+    display: flex;
+    gap: 20px;
+}
+#center-nav>a{
+    text-decoration: solid;
+    font-weight: 500;
+    font-size: 20px;
+}
+#center-nav>a:hover{
+    color: skyblue;
+    cursor: pointer
+  }
+#center-nav>input{
+    font-size: 30px;
+}
+#text {
+    position: relative;
+    top: 30%;
+    left: 5%;
+    height: 50%;
+    width:45%;    
+}
+#text>h1{
+    font-size: 60px;
+    color: #1c2e4a
+}
+#text>h4{
+    margin-top: 0px;
+    color:#1c2e4a;
+    font-size: 20px;
+}
+#text>h3{
+    color: #23395d;
+    margin-top: 15px;
+    font-size: 30px;
+}
+#buttons {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    
+    bottom: 10%;
+}
+#buttons>button{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border:#1c2e4a;
+    background-color: rgb(113, 177, 230);
+    text-decoration-color: black;
+    font-weight: 500;
+    gap: 10px;
+    margin-left: 25px;
+}
+#buttons>button:hover {
+    background-color: rgb(2, 2, 36);
+    color: white;
+    cursor: pointer;
+  }
+  #page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000033;
+}
+#page1>#left{
+    position: absolute;
+    left:5%;
+    top:8%;
+    bottom: 5%;
+    height: 80%;
+    width: 45%;
+    background-color: lightblue;
+    border-color: black;
+}
+#page1>#center{
+    position: absolute;
+    left:50%;
+    top:8%;
+    bottom:5%;
+    height: 80%;
+    width:1%;
+    background-color: black ;
+}
+#page1>#left>img{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 70%;
+    height: 85%;
+    border-radius: 25px;
+    border-color: #000137;
+}
+#page1>#right{
+    position: absolute;
+    right:5%;
+    top:5%;
+    bottom:5%;
+    height: 90%;
+    width:40%;
+}
+#page1>#right>#text {
+    position: relative;
+    top: 5%;
+    left: 10%;
+    height: 90%;
+    width:80%;  
+}
+#page1>#right>#text>h1 {
+    font-size: 40px;
+    left: 50%;
+    color: whitesmoke;
+}
+#page1>#right>#text>h4{
+    margin-top: 10px;
+    font-size: 20px;
+    left:50%;
+    color: whitesmoke;
+}
+#page1>#right>#text>#buttons>button:hover {
+    background-color: black;
+    color: skyblue;
+    cursor: pointer;
+  }
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000026;
+}
+#page2>#info{
+    position: relative;
+    top: 5%;
+    left: 40%;
+    height: 90%;
+    width:80%; 
+    font-size: 25px;
+    color: whitesmoke;
+}
+#page2>#right{
+    position: absolute;
+    right:5%;
+    top:20%;
+    bottom:20%;
+    height: 80%;
+    width:40%;
+}
+#page2>#right>img{
+    position: absolute;
+        left: 5%;
+        top: 45%;
+        transform: translatey(-50%);
+        width: 85%;
+        height: 75%;
+    }
+#page2>#left{
+    position: absolute;
+    left:10%;
+    top:18%;
+    bottom: 15%;
+    height: 80%;
+    width: 35%;
+}
+#page2>#left>.box{
+    height: 25%;
+    width: 100%;
+    font-size: 18px;
+    color: whitesmoke;
+}
+#page3{
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-color: #00001a;
+}
+#page3>#info{
+    position: relative;
+    top: 5%;
+    left: 40%;
+    height: 90%;
+    width:80%; 
+    font-size: 25px;
+    color: whitesmoke;
+}
+#page3>#b1{
+    position: absolute;
+    left:17.5%;
+    top:28%;
+    bottom: 5%;
+    height: 55%;
+    width: 20%;
+}
+#page3>#b2{
+    position: absolute;
+    left:40%;
+    top:28%;
+    bottom: 5%;
+    height: 55%;
+    width: 20%;
+}
+#page3>#b3{
+    position: absolute;
+    left:62.5%;
+    top:28%;
+    bottom: 5%;
+    height: 55%;
+    width: 20%;
+}
+#page3>#b1>h2{
+    font-size: 20px;
+    color: whitesmoke;
+    left: 10%;
+}
+#page3>#b2>h2{
+    font-size: 20px;
+    color: whitesmoke;
+}#page3>#b3>h2{
+    font-size: 20px;
+    color: whitesmoke;
+}
+#page3>#b1>h4{
+    margin-top: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#page3>#b2>h4{
+    margin-top: 15px;
+    font-size: 20px;
+    color:whitesmoke;
+}
+#page3>#b3>h4{
+    margin-top: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#page4{
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+}
+#page4>#info{
+    position: relative;
+    top: 15%;
+    left: 40%;
+    height: 90%;
+    width:80%; 
+    font-size: 25px;
+    color: whitesmoke;
+}
+#page4>img{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translatey(-50%);
+    width: 100px;
+    height: 45px
+}
